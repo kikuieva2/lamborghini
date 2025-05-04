@@ -7,7 +7,7 @@ const blogtext = document.getElementById('blogtext');
 
 
 
-// uzspiežot uz pogas pārritinās uz final konteineri
+
 
 arrow.addEventListener("click", function(){
     arrow.classList.add("clicked");

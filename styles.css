@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/impact');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import 'mixin';
+
+
 
 *{
     margin:0;
@@ -11,6 +11,9 @@
 img{
     width:100%;
     height:auto;
+}
+body{
+    overflow-x:hidden;
 }
 .lamborghini__logo{
     width: 83px;
@@ -211,7 +214,7 @@ a{
    position: relative;
 }
 .polygon__image{
-    width:100%;
+    width:437px;
     height:100%;
     background-image: url('./images/Polygon\ 3.png');
     background-repeat:no-repeat;
@@ -357,9 +360,7 @@ a{
     filter: drop-shadow(0px 1.845px 4.306px rgba(159, 107, 8, 0.50));
     position: absolute;
     left:200px;
-    /* top:31px; */
     bottom:317px;
-    /* bottom:351px; */
 }
 .lamb__paragraph{
     color:  #FFF;
@@ -367,7 +368,7 @@ a{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 16.8px */
+    line-height: 120%;
 }
 .lamborghini__charasteristic{
     position: absolute;
